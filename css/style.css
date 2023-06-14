@@ -85,6 +85,17 @@ table button {
 table button:hover {
   background-color: var(--secondary-shade);
 }
+
+.btns_read {
+  background-color: inherit;
+  color: inherit;
+  border: 1px solid var(--main);
+}
+
+.btns_read:hover {
+  background-color: inherit;
+}
+
 @media (min-width: 650px) {
   main {
     display: grid;
